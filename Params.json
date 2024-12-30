@@ -1,0 +1,23 @@
+{
+    "NUM_EPOCHS": 600,
+    "BATCH_SIZE": 64,
+    "SAVED_MODELS_DIR": "saved_models",
+    "PLOTS_DIR": "plots",
+    "selected_features": [
+        "SpeedAvg",
+        "SpeedMax",
+        "DirectionAvg",
+        "TemperatureMax",
+        "PressureDelta",
+        "HumityMax",
+        "TemperatureDelta",
+        "HumidtyDelta",
+        "height"
+    ],
+    "dataset_types": ["50m","10m"],
+    "PREDICTS": [
+        [5, 1],
+        [5, 3],
+        [1, 5]
+    ]
+}
